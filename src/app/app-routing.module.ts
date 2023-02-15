@@ -11,7 +11,7 @@ const routes: Routes = [
     pathMatch: 'prefix',
     children: [
       {path: '', component: HomeComponent},
-      {path: 'register', component: RegistrationComponent}
+      {path: './register', component: RegistrationComponent}
     ]
   }
 ];
